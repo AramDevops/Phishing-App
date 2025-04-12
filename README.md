@@ -1,5 +1,3 @@
----
-
 # PHISHING APP – DÉMONSTRATION ÉDUCATIVE
 
 **Auteur / Professeur :** Akram Nasr  
