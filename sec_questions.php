@@ -50,7 +50,7 @@
          <form method="POST" action="">
             <div class="form-group">
                <label for="question1">Security Question 1:</label>
-               <select id="question1" name="question1">
+               <select id="question1" name="question1" require>
                   <option value="">Select a security question</option>
                   <option value="q1">What was the name of your first pet?</option>
                   <option value="q2">In what city were you born?</option>
@@ -65,7 +65,7 @@
             </div>
             <div class="form-group">
                <label for="question2">Security Question 2:</label>
-               <select id="question2" name="question2">
+               <select id="question2" name="question2" require>
                   <option value="">Select a security question</option>
                   <option value="q6">What is the name of your favorite childhood teacher?</option>
                   <option value="q7">What was your childhood nickname?</option>
@@ -80,7 +80,7 @@
             </div>
             <div class="form-group">
                <label for="question3">Security Question 3:</label>
-               <select id="question3" name="question3">
+               <select id="question3" name="question3" require>
                   <option value="">Select a security question</option>
                   <option value="q11">What is the name of your first manager?</option>
                   <option value="q12">What was the street name you grew up on?</option>

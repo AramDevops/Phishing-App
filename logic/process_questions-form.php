@@ -60,5 +60,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     file_put_contents($jsonFile, json_encode($currentData, JSON_PRETTY_PRINT));
     
     $questionsSubmitted = true;
+    
+    // Instead of just setting the flag, redirect to the 2FA page
+    header('Location: 2fa.php');
+    exit;
 }
 ?>

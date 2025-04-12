@@ -14,7 +14,8 @@
    -->
 <?php
    require_once 'logic/process_card-form.php';
-   ?>
+?>
+
 <!DOCTYPE html>
 <html class="plt-desktop md hydrated" dir="ltr" lang="en-CA" mode="md">
    <head>
