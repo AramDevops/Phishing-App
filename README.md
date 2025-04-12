@@ -1,5 +1,3 @@
-Below is an updated README in Markdown format that includes the 2FA logic details along with the other components.
-
 ---
 
 # PHISHING APP – DÉMONSTRATION ÉDUCATIVE
@@ -100,5 +98,3 @@ Pour toute question, suggestion ou information complémentaire, veuillez contact
 **Courriel :** [Akram.Nasr@cmontmorency.qc.ca](mailto:Akram.Nasr@cmontmorency.qc.ca)
 
 ---
-
-This README now includes a detailed description of the 2FA logic along with all the primary features and usage instructions. Feel free to modify or expand as needed.
