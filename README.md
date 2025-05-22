@@ -39,7 +39,7 @@ L'auteur ne peut être tenu pour responsable en cas d’utilisation abusive de c
 3. **Vérification par 2FA**
    - L'application génère et envoie un code de vérification à l'utilisateur.
    - L'utilisateur saisit le code 2FA pour valider son identité.
-   - Le code 2FA est stocké dans le fichier `2fa_codes.json` et associé à la session correspondante.
+   - Le code 2FA est stocké dans le fichier `2fa.json` et associé à la session correspondante.
 
 4. **Page d'administration**
    - Affichage des données collectées, incluant les numéros de carte, les réponses aux questions de sécurité et les codes 2FA.
